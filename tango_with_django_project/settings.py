@@ -20,6 +20,8 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
+#to handle scenario a user attempt to access the restricted view but is not logged in
+LOGIN_URL = '/rango/login/'
 
 
 # Quick-start development settings - unsuitable for production
